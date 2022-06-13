@@ -1,0 +1,46 @@
+body{
+    background-color: #162527;
+}
+
+.title{
+    font-size: 4rem;
+    /*color: #738f93;*/
+    color: white;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.button{
+    margin: 50px 30%;
+}
+.button a:hover{
+    color: #1ba94c;
+    background-color: #162527;
+    border: 1px solid #1ba94c;
+    transition: .3s;
+}
+.btn{
+    margin-top: 50px;
+    margin-left: 150px;
+    color: #fff;
+    background-color: #1ba94c;
+    padding: 0.5rem 2rem;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 4px;
+}
+a{
+    text-decoration: none;
+}
+
+ @media screen and (max-width: 568px){
+    .title{
+        font-size: 2rem;
+
+    }
+    .btn{
+        margin-left: 2rem; 
+    }
+ }
